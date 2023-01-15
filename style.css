@@ -62,14 +62,22 @@ body {
   text-align: center;
   text-decoration: none;
   transition: 0.25s;
-}
-
-.hp_theme {
-  color: #fff;
+  color: #fff; /*背景色と文字色をボタンのベースクラスとみなす*/
   background-color: #e25c00;
 }
 
 .hp_warning {
   color: #222;
   background-color: #f1de00;
+}
+.hp_bxshNone {
+  box-shadow: none;
+}
+
+.hp_textBlack {
+  color: #222;
+}
+
+.hp_textWhite {
+  color: #fff;
 }
