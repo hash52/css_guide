@@ -13,13 +13,13 @@ body {
 }
 
 /*本来はsub-textなどのクラスセレクタを用いるべきであるが、影響範囲の解説のため敢えて要素セレクタを使用している*/
-.bl_module .body > span {
+.bl_media .body > span {
   color: #555;
   font-size: 14px;
 }
 
 /*bl_ blockのbl。モジュールグループ（＝どのページでも再利用できる）を表す ===========================*/
-.bl_module {
+.bl_media {
   /* モジュールに対する指定 */
   display: flex;
   align-items: center;
@@ -27,19 +27,19 @@ body {
   line-height: 1.5;
 }
 /*PRECSSの命名規則に従い、ハイフンケースでなくキャメルケースを用いる*/
-.bl_module_imageWrapper {
+.bl_media_imageWrapper {
   flex: 1 1 25%;
   margin-right: 3.33333%;
 }
 /*ある程度範囲が絞られる要素であれば要素名をセレクタにして問題なし*/
-.bl_module_imageWrapper img {
+.bl_media_imageWrapper img {
   width: 100%;
   vertical-align: top;
 }
-.bl_module_body {
+.bl_media_body {
   flex: 1 1 68.33333%;
 }
-.bl_module_title {
+.bl_media_title {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
