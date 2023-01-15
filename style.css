@@ -52,7 +52,13 @@ body {
 }
 
 .el_btnTheme,
-.el_btnWarning {
+.el_btnWarning,
+.el_btnThemeShadowNone,
+.el_btnThemeTextBlack,
+.el_btnThemeShadowNoneTextBlack,
+.el_btnWarningShadowNone,
+.el_btnWarningTextWhite,
+.el_btnWarningShadowNoneTextWhite {
   display: inline-block;
   width: 300px;
   max-width: 100%;
@@ -65,12 +71,44 @@ body {
   transition: 0.25s;
 }
 
-.el_btnTheme {
+.el_btnTheme,
+.el_btnThemeShadowNone,
+.el_btnThemeTextBlack,
+.el_btnThemeShadowNoneTextBlack {
   color: #fff;
   background-color: #e25c00;
 }
 
-.el_btnWarning {
+.el_btnThemeShadowNone {
+  box-shadow: none;
+}
+
+.el_btnThemeTextBlack {
+  color: #222;
+}
+
+.el_btnThemeShadowNoneTextBlack {
+  box-shadow: none;
+  color: #222;
+}
+
+.el_btnWarning,
+.el_btnWarningShadowNone,
+.el_btnWarningTextWhite,
+.el_btnWarningShadowNoneTextWhite {
   color: #222;
   background-color: #f1de00;
+}
+
+.el_btnWarningShadowNone {
+  box-shadow: none;
+}
+
+.el_btnWarningTextWhite {
+  color: #fff;
+}
+
+.el_btnWarningShadowNoneTextWhite {
+  box-shadow: none;
+  color: #fff;
 }
