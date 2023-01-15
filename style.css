@@ -27,19 +27,19 @@ body {
   line-height: 1.5;
 }
 /*PRECSSの命名規則に従い、ハイフンケースでなくキャメルケースを用いる*/
-.bl_module .bl_module_imageWrapper {
+.bl_module_imageWrapper {
   flex: 1 1 25%;
   margin-right: 3.33333%;
 }
 /*ある程度範囲が絞られる要素であれば要素名をセレクタにして問題なし*/
-.bl_module .bl_module_imageWrapper img {
+.bl_module_imageWrapper img {
   width: 100%;
   vertical-align: top;
 }
-.bl_module .body {
+.bl_module_body {
   flex: 1 1 68.33333%;
 }
-.bl_module .bl_module_title {
+.bl_module_title {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
