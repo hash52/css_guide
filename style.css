@@ -12,7 +12,8 @@ body {
   margin-left: auto;
 }
 
-#main span {
+/*本来はsub-textなどのクラスセレクタを用いるべきであるが、影響範囲の解説のため敢えて要素セレクタを使用している*/
+#main .bl_module.main-module .body > span {
   color: #555;
   font-size: 14px;
 }
